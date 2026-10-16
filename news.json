@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "GTA 6 Release Date Confirmed",
+    "type": "announcement",
+    "date": "May 6, 2025",
+    "summary": "Rockstar Games confirms November 19, 2026 release date for GTA 6 on PS5 and Xbox Series X|S.",
+    "content": "Rockstar Games has officially confirmed that Grand Theft Auto VI will launch on November 19, 2026 for PlayStation 5 and Xbox Series X|S. The announcement came alongside a new 90-second trailer featuring both protagonists, Jason Duval and Lucia Caminos, in a high-speed chase through Vice City. The trailer showcased the game's improved graphics, dynamic weather system, and the dual-protagonist switching mechanic that allows players to control both characters mid-mission.",
+    "source": "Rockstar Newswire"
+  },
+  {
+    "id": "2",
+    "title": "New Trailer Breaks Records",
+    "type": "trailer",
+    "date": "May 7, 2025",
+    "summary": "Trailer 2 amasses over 48 million views in first 24 hours.",
+    "content": "The second official trailer for Grand Theft Auto VI has shattered viewership records, accumulating over 48 million views within its first 24 hours on YouTube. The trailer, which features extended gameplay sequences including car chases, gunfights, and a dramatic boat escape, has become the most-watched gaming trailer in 24-hour history. Fans have been analyzing every frame for hidden details about the game world, characters, and potential gameplay mechanics.",
+    "source": "YouTube Analytics / Social Media Reports"
+  },
+  {
+    "id": "3",
+    "title": "PC Version Not At Launch",
+    "type": "announcement",
+    "date": "August 27, 2026",
+    "summary": "Rockstar confirms no PC version at launch — coming later.",
+    "content": "In a statement that disappointed many PC gamers, Rockstar Games confirmed that Grand Theft Auto VI will not be available on PC at launch. The company stated that the PC version is in development but will arrive after the console releases. This follows Rockstar's traditional pattern of launching on consoles first, with PC ports typically arriving 12-18 months later. The company has not provided a specific date for the PC release.",
+    "source": "Rockstar Games Support"
+  },
+  {
+    "id": "4",
+    "title": "Deluxe Coconut Mall Screen Spotted",
+    "type": "leak",
+    "date": "August 15, 2026",
+    "summary": "Screenshot appears to show Vice City shopping mall.",
+    "content": "A screenshot circulating on social media appears to show a detailed shopping mall interior in Vice City, with fans speculating it could be the 'Deluxe Coconut Mall' referenced in earlier leaks. The image shows a multi-level retail space with unique store names, NPC shoppers, and what appears to be a functioning food court. While unverified, the screenshot aligns with Rockstar's promise of hundreds of enterable buildings in the game world.",
+    "source": "Social Media / Community Reports"
+  },
+  {
+    "id": "5",
+    "title": "Pre-order Bonus Revealed",
+    "type": "announcement",
+    "date": "June 1, 2025",
+    "summary": "Vintage Vice City Pack includes classic outfits and vehicles.",
+    "content": "Rockstar Games has revealed the pre-order bonus for Grand Theft Auto VI: the Vintage Vice City Pack. Available to all customers who pre-order before the deadline, this bonus includes classic 1980s-style outfits for both Jason and Lucia, a vintage sports car, and exclusive weapon skins. The pack is designed to pay homage to the original Vice City game while providing unique cosmetic items for the new game.",
+    "source": "Rockstar Newswire"
+  },
+  {
+    "id": "6",
+    "title": "New Gameplay Details Revealed",
+    "type": "announcement",
+    "date": "August 27, 2026",
+    "summary": "Extended Look trailer reveals Dead Eye ability, robbery system, and more.",
+    "content": "The latest Extended Look trailer for Grand Theft Auto VI has revealed several key gameplay features. The Dead Eye ability, previously seen in Red Dead Redemption 2, makes a return with a modern twist. A new robbery system allows players to plan and execute heists with both protagonists. The trailer also showed improved NPC AI, dynamic weather effects, and what appears to be a stock market system for investing in-game money. Additionally, the dual-protagonist switching mechanic was shown in detail, allowing seamless transitions between Jason and Lucia during missions.",
+    "source": "Rockstar Games / Community Analysis"
+  }
+]
