@@ -1,26 +1,34 @@
 [
   {
-    "id": "trailer-1",
-    "title": "Trailer 1",
-    "date": "December 2023",
-    "description": "First official trailer confirming the project publicly.",
-    "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-    "views": "200M+"
-  },
-  {
-    "id": "trailer-2",
-    "title": "Trailer 2",
-    "date": "May 6, 2025",
-    "description": "90-second trailer with car chase, gunfight, and boat escape. Confirmed release date.",
-    "url": "https://www.youtube.com/watch?v=VhMmGOoMiIM",
-    "views": "150M+"
+    "id": "launch-trailer",
+    "title": "Launch Trailer",
+    "date": "October 15, 2026",
+    "description": "Surprise launch trailer released five weeks before release, featuring Jason and Lucia in Vice City.",
+    "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+    "views": "24M+"
   },
   {
     "id": "extended-look",
     "title": "Extended Look",
     "date": "August 27, 2026",
     "description": "Gameplay-focused preview showing Dead Eye ability, robbery system, and dual-protagonist control.",
-    "url": "https://www.youtube.com/watch?v=VhMmGOoMiIM",
+    "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
     "views": "48M+"
+  },
+  {
+    "id": "trailer-2",
+    "title": "Trailer 2",
+    "date": "May 6, 2025",
+    "description": "90-second trailer with car chase, gunfight, and boat escape. Confirmed release date.",
+    "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+    "views": "150M+"
+  },
+  {
+    "id": "trailer-1",
+    "title": "Trailer 1",
+    "date": "December 2023",
+    "description": "First official trailer confirming the project publicly.",
+    "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+    "views": "200M+"
   }
 ]
