@@ -1,8 +1,5 @@
 {
   "name": "gta-vi-guide-data",
   "private": true,
-  "type": "module",
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.135.0"
-  }
+  "type": "module"
 }
