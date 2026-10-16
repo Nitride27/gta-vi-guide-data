@@ -1,0 +1,50 @@
+[
+  {
+    "id": "combat",
+    "title": "Combat Tips",
+    "tips": [
+      "Use the weapon wheel (L1/LB) to quickly switch between weapons mid-fight.",
+      "Aim for headshots to conserve ammo — body shots take 2-3x more bullets.",
+      "Eat snacks (inventory) during combat to regain health on the fly.",
+      "Use cover (R1/RB) when outnumbered — pop out to shoot, then return to cover.",
+      "Propane tanks and gas pumps explode when shot — use them as environmental weapons.",
+      "Switch between Jason and Lucia mid-firefight to flank enemies from different angles."
+    ]
+  },
+  {
+    "id": "exploration",
+    "title": "Exploration Tips",
+    "tips": [
+      "Explore at night — Vice City's neon-lit streets are best experienced after dark.",
+      "Check under bridges and in alleyways for hidden collectibles.",
+      "Swim out to sea — underwater areas contain hidden items and Easter eggs.",
+      "Visit the beach during sunrise for unique NPC activities and encounters.",
+      "Climb to the top of the tallest buildings for panoramic views and photo ops.",
+      "Use the in-game camera to discover hidden details in the environment."
+    ]
+  },
+  {
+    "id": "economy",
+    "title": "Money Tips",
+    "tips": [
+      "Complete side missions early — they often pay as well as main story missions.",
+      "Rob stores with a partner for double the take (Jason + Lucia co-op).",
+      "Invest in properties as early as possible — passive income adds up quickly.",
+      "Sell stolen cars at Pay & Spray for quick cash, but rare cars are worth more kept.",
+      "Complete all side activities to unlock unique money-making opportunities.",
+      "The stock market (if available) can be manipulated by completing certain missions."
+    ]
+  },
+  {
+    "id": "character",
+    "title": "Character Tips",
+    "tips": [
+      "Switch between characters frequently — each has unique abilities and perspectives.",
+      "Jason's backstory with the army means he's better at combat situations.",
+      "Lucia's street smarts make her ideal for stealth and social engineering missions.",
+      "Build relationships with supporting characters — they unlock unique side content.",
+      "Check character-specific phone messages for hints about upcoming missions.",
+      "Each character has unique dialogue in the same situations — replay missions to hear both."
+    ]
+  }
+]

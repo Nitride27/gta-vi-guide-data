@@ -1,0 +1,38 @@
+{
+  "combat": {
+    "weaponLimit": "2 concealed handguns + 2 visible long guns",
+    "weaponWheel": "Redesigned — R1/RB to switch between weapons and items",
+    "equipment": ["Binoculars", "Body armor", "Flashlight", "Food & drink", "Duffel bags", "Trauma kits", "Immobilizer bypass tool"],
+    "healing": [
+      { "name": "Zombix", "effect": "Health restoration, diminishing effectiveness from overuse" },
+      { "name": "EpiPen", "effect": "Emergency healing" }
+    ],
+    "weaponRetrieval": "Weapons never permanently lost — retrieve from Ammu-Nation locker or personal vehicle",
+    "stealth": "Openly carrying long guns makes NPCs nervous and draws police attention",
+    "wantedLevel": "Six-star system returns",
+    "slowMotion": "Dead Eye-style slow-motion aiming ability confirmed",
+    "nonLethal": "Suppressive fire — intentionally firing near targets to intimidate without killing"
+  },
+  "vehicles": {
+    "purchasing": "Vehicles can be bought at dealerships and showrooms",
+    "storage": "Limited weapon storage in vehicles (trunk, capacity shown as X/4)",
+    "customization": "Deep customization across multiple in-game shops",
+    "payAndSpray": "Returns for repainting, repairing, valuing, and re-registering stolen vehicles",
+    "garages": "Purchasable garage properties with weapon locker and stolen-goods deposit",
+    "personalStorage": "Personal and stolen vehicles double as mobile weapon storage (like RDR2 horse)"
+  },
+  "world": {
+    "npcReactions": "NPCs react to everything the player does, including audibly to brandished weapons",
+    "itemPickup": "Players can pick up items NPCs are carrying — melee weapons, trash, hats",
+    "pets": "Players can pet dogs",
+    "chaos": "Can throw feces at NPCs",
+    "sprinting": "Mapped to left stick (L3) rather than button-mashing"
+  },
+  "features": {
+    "photoMode": true,
+    "firstPerson": false,
+    "thirdPersonOnly": true,
+    "accessibility": "Extensive accessibility options confirmed",
+    "mapSize": "Estimated ~2x GTA V density/size (unofficial)"
+  }
+}

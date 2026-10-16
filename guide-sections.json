@@ -1,0 +1,58 @@
+[
+  {
+    "id": "missions",
+    "title": "Mission Walkthroughs",
+    "subtitle": "Step-by-step guides for every mission",
+    "icon": "Target",
+    "status": "coming-soon"
+  },
+  {
+    "id": "weapons",
+    "title": "Weapons Database",
+    "subtitle": "All weapons, stats, and locations",
+    "icon": "Crosshair",
+    "status": "coming-soon"
+  },
+  {
+    "id": "vehicles",
+    "title": "Vehicle Guide",
+    "subtitle": "Cars, bikes, boats, and aircraft",
+    "icon": "Car",
+    "status": "coming-soon"
+  },
+  {
+    "id": "collectibles",
+    "title": "Collectibles",
+    "subtitle": "Hidden packages, stickers, and more",
+    "icon": "Gem",
+    "status": "coming-soon"
+  },
+  {
+    "id": "achievements",
+    "title": "Achievements",
+    "subtitle": "Trophies and unlockables",
+    "icon": "Trophy",
+    "status": "coming-soon"
+  },
+  {
+    "id": "cheats",
+    "title": "Cheats & Secrets",
+    "subtitle": "Easter eggs, glitches, and cheat codes",
+    "icon": "Key",
+    "status": "coming-soon"
+  },
+  {
+    "id": "online",
+    "title": "GTA Online",
+    "subtitle": "Multiplayer content and updates",
+    "icon": "Globe2",
+    "status": "coming-soon"
+  },
+  {
+    "id": "money",
+    "title": "Money & Businesses",
+    "subtitle": "How to get rich in Leonida",
+    "icon": "Wallet",
+    "status": "coming-soon"
+  }
+]

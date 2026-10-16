@@ -1,0 +1,30 @@
+[
+  {
+    "id": "vice-city",
+    "name": "Vice City",
+    "description": "The neon-soaked heart of Leonida. A playground of excess, ambition, and danger.",
+    "icon": "city",
+    "accentColor": "#F43F5E"
+  },
+  {
+    "id": "leonida-keys",
+    "name": "Leonida Keys",
+    "description": "Tropical islands and coastal towns. Sun, sand, and smuggling routes.",
+    "icon": "palmtree",
+    "accentColor": "#3B82F6"
+  },
+  {
+    "id": "grasslands",
+    "name": "Grasslands",
+    "description": "Rural heartland with sprawling ranches and hidden meth labs.",
+    "icon": "mountain",
+    "accentColor": "#10B981"
+  },
+  {
+    "id": "everglades",
+    "name": "Everglades",
+    "description": "Swampy wilderness and hidden secrets. Watch your step.",
+    "icon": "droplets",
+    "accentColor": "#A855F7"
+  }
+]

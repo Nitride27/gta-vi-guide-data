@@ -1,0 +1,142 @@
+[
+  {
+    "id": "jason-duval",
+    "name": "Jason Duval",
+    "role": "Protagonist",
+    "bio": "After a stint in the Army, Jason landed in the Leonida Keys working for local drug runners — practical, capable, and trying to keep his head down until he meets Lucia.",
+    "location": "Leonida Keys",
+    "accentColor": "#3B82F6",
+    "details": {
+      "age": "Early 30s",
+      "background": "Former military, turned to a life of crime after struggling to find work. Now runs with local drug runners in the Leonida Keys.",
+      "personality": "Calm, tactical, and loyal. Drawing inspiration from figures like Clyde Barrow.",
+      "relationships": ["Lucia Caminos", "Boobie Ike", "Cal Hampton", "Brian Heder"]
+    }
+  },
+  {
+    "id": "lucia-caminos",
+    "name": "Lucia Caminos",
+    "role": "Protagonist",
+    "bio": "Lucia grew up in Liberty City before ending up in Leonida, where she was incarcerated at the Leonida Penitentiary for an unspecified crime tied to 'fighting for her family.'",
+    "location": "Vice City",
+    "accentColor": "#F43F5E",
+    "details": {
+      "age": "Late 20s",
+      "background": "Grew up in Liberty City, ended up incarcerated in Leonida. First major non-optional female protagonist in mainline GTA.",
+      "personality": "Bold, cunning, driven by ambition and a desire for the good life her mother once dreamed of.",
+      "relationships": ["Jason Duval", "Stefanie"]
+    }
+  },
+  {
+    "id": "boobie-ike",
+    "name": "Boobie Ike",
+    "role": "Supporting",
+    "bio": "A Vice City figure who turned street hustle into a legitimate-looking empire spanning real estate, the Jack of Hearts strip club, and Only Raw Records.",
+    "location": "Vice City",
+    "accentColor": "#A855F7",
+    "details": {
+      "age": "Unknown",
+      "background": "Built empire from street hustle — real estate, Jack of Hearts strip club, Only Raw Records (co-founded with Dre'Quan Priest).",
+      "personality": "All smiles until it's time to talk business.",
+      "relationships": ["Jason Duval", "Dre'Quan Priest", "Real Dimez"]
+    }
+  },
+  {
+    "id": "cal-hampton",
+    "name": "Cal Hampton",
+    "role": "Supporting",
+    "bio": "Jason's paranoid, beer-loving best friend who monitors Coast Guard radio frequencies from home.",
+    "location": "Leonida Keys",
+    "accentColor": "#10B981",
+    "details": {
+      "age": "Unknown",
+      "background": "Jason's best friend. Spends his time monitoring Coast Guard radio with a few beers and private browser tabs.",
+      "personality": "Paranoid, beer-loving, loyal.",
+      "relationships": ["Jason Duval"]
+    }
+  },
+  {
+    "id": "drequan-priest",
+    "name": "Dre'Quan Priest",
+    "role": "Supporting",
+    "bio": "A former street dealer who traded crime for the music business. Works with Boobie Ike at Only Raw Records.",
+    "location": "Vice City",
+    "accentColor": "#EAB308",
+    "details": {
+      "age": "Unknown",
+      "background": "Former street dealer turned music executive at Only Raw Records. Signed the duo Real Dimez.",
+      "personality": "Smooth, ambitious, business-savvy.",
+      "relationships": ["Boobie Ike", "Real Dimez"]
+    }
+  },
+  {
+    "id": "real-dimez",
+    "name": "Real Dimez (Bae-Luxe & Roxy)",
+    "role": "Supporting",
+    "bio": "A rap duo, friends since high school, who went from shaking down local dealers to building a music career and social-media following.",
+    "location": "Vice City",
+    "accentColor": "#EC4899",
+    "details": {
+      "age": "Unknown",
+      "background": "High school friends who built a music career. Signed to Only Raw Records.",
+      "personality": "Ambitious, social-media savvy, entrepreneurial.",
+      "relationships": ["Boobie Ike", "Dre'Quan Priest"]
+    }
+  },
+  {
+    "id": "raul-bautista",
+    "name": "Raul Bautista",
+    "role": "Supporting",
+    "bio": "A seasoned bank robber who combines charm with a serious appetite for risk, always looking for his next big score.",
+    "location": "Vice City",
+    "accentColor": "#F97316",
+    "details": {
+      "age": "Unknown",
+      "background": "Seasoned bank robber with a charm for high-risk scores.",
+      "personality": "Charming, risk-taking, always hunting the next big score.",
+      "relationships": []
+    }
+  },
+  {
+    "id": "brian-heder",
+    "name": "Brian Heder",
+    "role": "Supporting",
+    "bio": "Lets Jason live rent-free in exchange for shakedown help. A Keys-based drug runner and smuggler.",
+    "location": "Leonida Keys",
+    "accentColor": "#6366F1",
+    "details": {
+      "age": "Unknown",
+      "background": "Drug runner and smuggler based in the Leonida Keys.",
+      "personality": "Calculating, transactional.",
+      "relationships": ["Jason Duval", "Lori Heder"]
+    }
+  },
+  {
+    "id": "stefanie",
+    "name": "Stefanie",
+    "role": "Supporting",
+    "bio": "A correctional social worker at the Leonida Department of Corrections — the first voice heard in GTA 6's marketing.",
+    "location": "Leonida",
+    "accentColor": "#14B8A6",
+    "details": {
+      "age": "Unknown",
+      "background": "Correctional social worker at Leonida Department of Corrections. First voice in Trailer 1.",
+      "personality": "Professional, composed.",
+      "relationships": ["Lucia Caminos"]
+    }
+  },
+  {
+    "id": "andres-de-leon",
+    "name": "Andrés de León",
+    "role": "Supporting",
+    "bio": "A wealthy media executive tied to 'Megamundo'. Jason and Lucia work security for him before the job turns chaotic.",
+    "location": "Vice City",
+    "accentColor": "#D946EF",
+    "details": {
+      "age": "Unknown",
+      "background": "Wealthy media executive connected to Megamundo. Hires Jason and Lucia for security.",
+      "personality": "Wealthy, connected, possibly dangerous.",
+      "relationships": ["Jason Duval", "Lucia Caminos"]
+    }
+  }
+]

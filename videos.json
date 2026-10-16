@@ -1,0 +1,37 @@
+[
+  {
+    "id": "vid1",
+    "title": "Dual Protagonist Switching",
+    "description": "Seamlessly switch between Jason and Lucia mid-mission",
+    "duration": "2:15",
+    "category": "Gameplay"
+  },
+  {
+    "id": "vid2",
+    "title": "Vice City Driving",
+    "description": "High-speed chase through downtown Vice City",
+    "duration": "1:45",
+    "category": "Action"
+  },
+  {
+    "id": "vid3",
+    "title": "Dead Eye Ability",
+    "description": "Precision targeting in slow motion",
+    "duration": "1:30",
+    "category": "Combat"
+  },
+  {
+    "id": "vid4",
+    "title": "Heist Planning",
+    "description": "Planning and executing a bank robbery",
+    "duration": "3:00",
+    "category": "Mission"
+  },
+  {
+    "id": "vid5",
+    "title": "World Exploration",
+    "description": "Exploring the diverse environments of Leonida",
+    "duration": "2:30",
+    "category": "Exploration"
+  }
+]

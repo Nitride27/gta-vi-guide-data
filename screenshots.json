@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ss1",
+    "title": "Vice City Skyline",
+    "description": "The neon-lit skyline of Vice City at night",
+    "category": "City"
+  },
+  {
+    "id": "ss2",
+    "title": "Beach Sunset",
+    "description": "Sunset over Vice Beach with palm trees",
+    "category": "Nature"
+  },
+  {
+    "id": "ss3",
+    "title": "Car Chase",
+    "description": "High-speed chase through downtown",
+    "category": "Action"
+  },
+  {
+    "id": "ss4",
+    "title": "Safehouse Interior",
+    "description": "Jason and Lucia's apartment",
+    "category": "Interior"
+  },
+  {
+    "id": "ss5",
+    "title": "Helicopter View",
+    "description": "Aerial view of Leonida",
+    "category": "Aerial"
+  },
+  {
+    "id": "ss6",
+    "title": "Boat Escape",
+    "description": "Escape by speedboat through the Everglades",
+    "category": "Action"
+  },
+  {
+    "id": "ss7",
+    "title": "Nightclub",
+    "description": "Neon-lit nightclub interior",
+    "category": "Interior"
+  },
+  {
+    "id": "ss8",
+    "title": "Swamp Area",
+    "description": "The murky swamps of Leonida",
+    "category": "Nature"
+  }
+]

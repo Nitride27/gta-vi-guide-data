@@ -1,0 +1,52 @@
+{
+  "release": {
+    "developer": "Rockstar Games",
+    "publisher": "Take-Two Interactive",
+    "date": "2026-11-19",
+    "platforms": ["PlayStation 5", "Xbox Series X|S"],
+    "pcStatus": "Not announced — industry expects 2027-2028",
+    "format": "Digital-only (physical box contains download code)",
+    "singlePlayer": true,
+    "online": "Separate standalone release (later)"
+  },
+  "editions": [
+    {
+      "name": "Standard Edition",
+      "price": "$79.99",
+      "features": ["Full base game", "Standard content"]
+    },
+    {
+      "name": "Ultimate Edition",
+      "price": "$99.99",
+      "features": ["Full base game", "Exclusive vehicles", "Two mod shops", "Classic Car Collection", "Additional story content", "Can upgrade from Standard post-launch"]
+    }
+  ],
+  "preorderBonus": {
+    "name": "Vintage Vice City Pack",
+    "description": "In-game items themed around the retro side of Leonida's neon-soaked Vice City",
+    "deadline": "2026-11-20",
+    "extra": "Free month of GTA+"
+  },
+  "keyDates": [
+    { "date": "2026-06-25", "event": "Pre-orders opened (midnight local time)" },
+    { "date": "2026-11-12", "event": "Digital pre-load begins" },
+    { "date": "2026-11-19", "event": "Launch on PS5 and Xbox Series X|S" },
+    { "date": "2026-11-20", "event": "Vintage Vice City Pack bonus window closes" }
+  ],
+  "delays": [
+    { "original": "Fall 2025", "reason": "Take-Two earnings guidance" },
+    { "date": "2026-05-26", "reason": "Rockstar needed extra time 'to deliver at the level of quality you expect and deserve'" },
+    { "date": "2026-11-19", "reason": "Second delay to current date" }
+  ],
+  "unconfirmed": [
+    "Exact map size/scale figures",
+    "Full story details, ending, and main antagonist",
+    "GTA Online's new iteration — launch date and veteran-player rewards",
+    "PC release date, price, and system requirements",
+    "Full vehicle count and complete weapon roster",
+    "Director Mode (not confirmed for launch)",
+    "Full voice/performance-capture cast",
+    "Identity of the main antagonist",
+    "Whether the leaked ~2x map-size estimate is accurate"
+  ]
+}
