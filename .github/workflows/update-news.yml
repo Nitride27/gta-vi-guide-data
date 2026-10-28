@@ -2,13 +2,39 @@ name: Update news
 
 on:
   schedule:
-    - cron: '0 6 */2 * *'
+    - cron: '0 6 * * *' # daily through launch week; back to '0 6 */2 * *' afterwards
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
   id-token: write
+
+env:
+  NEWS_PROMPT: |
+    You maintain the news feed of a Grand Theft Auto VI companion app. Do not edit any existing file or run git.
+
+    1. Read news.json to see the stories the app already has, and note the newest date in it.
+    2. Fetch Rockstar's official YouTube feed for new videos:
+       https://www.youtube.com/feeds/videos.xml?channel_id=UC6VcWc1rAoWdBCM0JxrRQ3A
+    3. Fetch https://www.rockstargames.com/newswire and look for GTA VI posts.
+    4. Search the web for GTA VI news published after the newest date in news.json (look back at least 14 days).
+       Run several searches, e.g. "GTA 6 Rockstar", "GTA VI Take-Two", "GTA 6 trailer", "GTA 6 pre-orders", "GTA 6 release".
+       Only use rockstargames.com, take2games.com, gamespot.com, kotaku.com, pcgamer.com, bloomberg.com,
+       gamesradar.com, videogameschronicle.com or techradar.com. (IGN, Polygon, The Verge, Eurogamer and
+       GamesIndustry.biz block Claude's web tools; asking for them makes the search fail.)
+
+    Rules:
+    - Only news confirmed by Rockstar Games/Take-Two, or reported by one of those outlets citing them on the record.
+      No rumors, insider claims or speculation.
+    - Skip anything news.json already covers, even under a different headline.
+    - Write original text; do not copy article sentences.
+    - At most 5 entries.
+
+    Write fresh.json in the repo root: a JSON array (write [] only if you truly found nothing new). Each item:
+    {"title","type","date","summary","content","source","url"}
+    type is one of announcement, trailer, update, leak. date like "October 15, 2026" (the article's date).
+    summary is one sentence, content is 2-4 sentences, source is the outlet name, url is the source article.
 
 jobs:
   update:
@@ -18,35 +44,42 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/update-news.mjs --check
-      - uses: anthropics/claude-code-action@v1
+      - run: node scripts/update-news.mjs --check && node scripts/update-trailers.mjs --check
+      - run: node scripts/update-trailers.mjs
+      - id: claude
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: '--allowedTools "Read,Write,WebSearch,WebFetch"'
-          prompt: |
-            You maintain the news feed of a Grand Theft Auto VI companion app. Do not edit any existing file or run git.
-
-            1. Read news.json to see the stories the app already has.
-            2. Fetch Rockstar's official YouTube feed for new videos:
-               https://www.youtube.com/feeds/videos.xml?channel_id=UC6VcWc1rAoWdBCM0JxrRQ3A
-            3. Search the web for GTA VI news from the past 7 days. Only use rockstargames.com, ign.com, gamespot.com,
-               eurogamer.net, polygon.com, theverge.com, kotaku.com, pcgamer.com, gamesindustry.biz or bloomberg.com.
-
-            Rules:
-            - Only news confirmed by Rockstar Games/Take-Two, or reported by one of those outlets citing them. No rumors or speculation.
-            - Skip anything news.json already covers, even under a different headline.
-            - Write original text; do not copy article sentences.
-            - At most 5 entries.
-
-            Write fresh.json in the repo root: a JSON array (write [] if nothing is new). Each item:
-            {"title","type","date","summary","content","source","url"}
-            type is one of announcement, trailer, update, leak. date like "October 15, 2026".
-            summary is one sentence, content is 2-4 sentences, source is the outlet name, url is the source article.
-      - run: node scripts/update-news.mjs fresh.json && rm -f fresh.json
+          prompt: ${{ env.NEWS_PROMPT }}
+      # The Claude step sometimes ends with a transient is_error; one retry recovers most runs.
+      - if: steps.claude.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: '--allowedTools "Read,Write,WebSearch,WebFetch"'
+          prompt: ${{ env.NEWS_PROMPT }}
+      - id: merge
+        run: |
+          {
+            echo 'sources<<EOF'
+            node -e 'try{for(const n of require("./fresh.json"))console.log(`- [${n.title}](${n.url}) (${n.source}, ${n.date})`)}catch{}'
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+          node scripts/update-news.mjs fresh.json
+          rm -f fresh.json
       - uses: peter-evans/create-pull-request@v7
         with:
           branch: news/auto
-          add-paths: news.json
-          title: 'News update'
-          commit-message: 'chore: news update'
-          body: 'Automated news update. Check sources before merging; merged changes reach the app within minutes.'
+          add-paths: |
+            news.json
+            trailers.json
+          title: 'Content update'
+          commit-message: 'chore: content update'
+          body: |
+            Automated update: news stories proposed by Claude from official sources, plus trailers and view counts from Rockstar's YouTube feed.
+            Check the sources before merging; merged changes reach the app within minutes.
+
+            Proposed stories (already-covered ones are dropped when merged into news.json):
+            ${{ steps.merge.outputs.sources }}
